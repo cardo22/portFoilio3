@@ -43,6 +43,10 @@ Shared style
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+.portfolio-img {
+  line-height: 1;
+}
+
 h1 {
   line-height: 1;
 }
@@ -52,7 +56,7 @@ h1 {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   /* vertically align its content */
   display: table;
 }
@@ -846,17 +850,17 @@ Kaleidoscope Effect
   font-weight: 700;
 }
 .kaleidoscope-transition .cd-btn {
-  background: #32ae9f;
-  color: #ffffff;
+  background: #178DAE;
+  color: black;
 }
-.kaleidoscope-transition .cd-main-content {
-  background: #13172a;
+.kaleidoscope-transition {
+  background: #E0EBE8;
 }
 .kaleidoscope-transition .cd-modal {
   background: #3b3d89;
 }
 .kaleidoscope-transition .cd-modal .modal-content {
-  color: #ffffff;
+  color: black;
 }
 .kaleidoscope-transition .cd-modal .modal-close::before,
 .kaleidoscope-transition .cd-modal .modal-close::after {
