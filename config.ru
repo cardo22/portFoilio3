@@ -1,6 +1,5 @@
 use Rack::Static,
 :urls => ["/css", "/js", "/img", "/scss", "/partials"]
-:root => "my_portFolio3"
 
 run lambda { |env|
 	[
