@@ -28,6 +28,16 @@ a {
 Shared style
 
 -------------------------------- */
+
+.first-main-content {
+  background: url(http://cdn.desktopwallpapers4.me/media/thumbs_400x250/1/1964.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .cd-btn {
   display: inline-block;
   padding: 1.6em 2.4em;
