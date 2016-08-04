@@ -3,6 +3,16 @@
 Primary style
 
 -------------------------------- */
+
+.top-navbar-collapse {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  border-radius: 0px;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
